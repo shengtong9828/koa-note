@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/main.js",
+    "debug": "nodemon --inspect ./src/main.js",
+    "start": "pm2 start pm2.conf.json",
+    "reload": "pm2 reload all"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.10",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.35.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^10.1.1",
+    "koa-session": "^6.2.0",
+    "koa-static": "^5.0.0",
+    "mysql2": "^2.3.3",
+    "pm2": "^5.2.0",
+    "prettier": "^2.8.4",
+    "sequelize": "^6.16.1",
+    "svg-captcha": "^1.4.0",
+    "xml2js": "^0.4.23",
+    "xss": "^1.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
